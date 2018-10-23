@@ -109,4 +109,4 @@ elif choice1== "jeans":
 msgbox("you chose:"+ "str(choice1)"+"of"+"str(choice11)")   
    
 elif choices== "Other":
- exit();
+ exit(0);
