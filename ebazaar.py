@@ -1,7 +1,9 @@
+from easygui import *
+import sys
 msgbox("Hello, everyone")
  msg ="What are you looking for?"
     title = "e-baazar"
-    choices = ["Furniture", "Electronics", "Home Appliances","Fashion"]
+    choices = ["Furniture", "Electronics", "Home Appliances","Fashion","Other"]
     choice = choicebox(msg, title, choices) 
  msgbox("You chose: " + choices, "Choice Result")
 
@@ -106,4 +108,5 @@ elif choice1== "jeans":
   choice11 =choicebox(msg11,title11,choice11)
 msgbox("you chose:"+ "str(choice1)"+"of"+"str(choice11)")   
    
-  
+elif choices== "Other":
+ exit();
